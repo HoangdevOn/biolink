@@ -1,0 +1,85 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Vũ Đình Hoàng - Links</title>
+        <link rel="stylesheet" href="./index.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.birds.min.js"></script>
+<script>
+window.addEventListener("DOMContentLoaded", () => {
+    VANTA.BIRDS({
+  el: "#vanta",
+  mouseControls: true,
+  touchControls: true,
+  gyroControls: false,
+  minHeight: 200.00,
+  minWidth: 200.00,
+  scale: 1.00,
+  scaleMobile: 1.00,
+  color1: 0x7d9eff,
+  color2: 0xff82a0,
+  birdSize: 1.30,
+  backgroundAlpha: 0.00,
+  wingSpan: 40.00,
+  separation: 100.00,
+  alignment: 77.00,
+  cohesion: 5.00,
+  quantity: 3.00
+})
+setTimeout(() => {
+    const main = document.querySelector('main')
+    main.style.opacity = 1
+    main.style.filter = 'blur(0px)';
+}, 1000)
+}) 
+</script>
+    </head>
+    <video autoplay muted loop playsinline>
+        <source src="./asset/bg.mp4" type="video/mp4; codecs=hvc1">
+        <source src="./asset/bg.webm" type="video/webm; codecs=vp9">
+    </video>
+    <body>
+        <div id="vanta">
+
+        </div>
+        <main>
+            <header>
+                <img src="./asset/vdh.png"/>
+                <h1>ig: @dinhoang108</h1>
+            </header>
+            <ul>
+                <li>
+                    <a href="http://www.dinhoang.tk">
+                        <img src="./asset/homepage.svg" alt="Homepage" width="30"/>
+                    Official Website
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.tiktok.com/@dinhoang108">
+                        <img src="./asset/Tik tok.svg" alt="Tik tok" width="30"/>
+                    Tik Tok
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.facebook.com/profile.php?id=100008298788145">
+                        <img src="./asset/Facebook.svg" alt="Facebook" width="30"/>
+                    Facebook
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/dinhhoang108/">
+                        <img src="./asset/Instagram.svg" alt="Instagram" width="30"/>
+                    Instagram
+                    </a>
+                </li>
+                <li>
+                    <a href="https://beacons.ai/dinhhoang">
+                        <img src="./asset/affiliate.svg" alt="KOC/KOLs" width="30"/>
+                        Affiliate
+                    </a>
+                </li>
+            </ul>
+        </main>
+    </body>
+</html>
